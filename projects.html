@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CoolHacks | Projects</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Projects," />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!--webfont-->
+<link href='//fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+<!----drop down----->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');
+        }
+    );
+});
+</script>
+<!----font-Awesome----->
+<link href="css/font-awesome.css" rel="stylesheet">
+<!----font-Awesome----->
+<!--light-box-files -->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+<!--light-box-files -->
+<script type="text/javascript" charset="utf-8">
+$(function() {
+	$('#example1 a').Chocolat();
+});
+</script>
+<script type="text/javascript" charset="utf-8">
+$(function() {
+	$('.gallery a').Chocolat();
+});
+</script>
+</head>
+<body>
+<div class="header">
+		<div class="container">
+			<div class="col-sm-3 logo">
+			  <h1><a href="index.html">CoolHacks</a></h1>
+			</div>
+		    <div class="col-sm-9 logo_right">
+		       <div class="social">
+             <a href="https://facebook.com/ramitsurana" class="link facebook" target="_parent"><span class="fa fa-facebook"></span></a>
+   				  <a href="https://twitter.com/ramitsurana" class="link twitter" target="_parent"><span class="fa fa-twitter"></span></a>
+   				  <a href="https://plus.google.com/+RamitSurana96" class="link google" target="_parent"><span class="fa fa-google-plus"></span></a>
+   				  <a href="https://linkedin.com/in/ramitsurana" class="link google" target="_parent"><span class="fa fa-linkedin"></span></a>
+   				  <a href="https://github.com/coolhacks" class="link google" target="_parent"><span class="fa fa-github"></span></a>
+               </div>
+			<!-- script for menu -->
+      <span class="menu"></span>
+			<div class="top-menu">
+				<ul>
+					<li><a href="https://github.com/coolhacks" target ="_blank" class="btn btn-default btn-default_2 pull-left"><span class="fa fa-github"></span> Available on Github</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+						</div>
+					</div>
+				  </div>
+				</div>
+			  <div class="clearfix"></div>
+		 </div>
+	   </div>
+</div>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">Menu
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div>
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+      <ul class="nav navbar-nav nav_1">
+          <li class="index.html"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="classified_database.html">Projects</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+      </ul>
+        <div class="help_line"><div id="txtblnk"><p>AMAZING NEW HACKS!</p></div></div>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<script type="text/javascript">
+		$(function() {
+		blinkeffect('#txtblnk');
+		})
+		function blinkeffect(selector) {
+		$(selector).fadeOut('slow', function() {
+		$(this).fadeIn('slow', function() {
+		blinkeffect(this);
+		});
+		});
+		}
+</script>
+<div class="demo">
+  <marquee behavior="scroll" style="background:#9083cf; color:#fff;" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+    CoolHacks is currently under development mode.You can fork it out at github.com/coolhacks.
+  </marquee>
+</div>
+<div class="about_banner">
+	<div class="container">
+		<h2>Projects</h2>
+		<span class="breadcrumbs"><a href="index.html"><i class="fa fa-home home_1"></i></a> / <span>Projects</span></span>
+	</div>
+</div>
+<div class="about_top">
+  <div class="container">
+	<div class="col-md-3 column-11">
+	</div>
+	<div class="col-md-9 column-15">
+	   <h6>Projects</h6>
+	   <p class="m_5">The cool and awesome projects of the cool hacks.</p>
+       <div class="entry_values">
+          <div class="col-md-3 grid_1">
+            <select class="form-control m_6 col-md-3" name="usertype" id="usertype">
+              <option value="">Please Select</option>
+              <option value="1">Leader</option>
+              <option value="2">Trainer</option>
+              <option value="3">Company</option>
+              <option value="4">Software Developer</option>
+              <option value="5">Products Supplier</option>
+              <option value="6">Consultant</option>
+              <option value="7">Employee</option>
+              <option value="8">Non MLM Persons</option>
+            </select>
+          </div>
+          <div class="col-md-3 grid_1">
+            <select class="form-control grid_1 col-md-3" name="country" id="country database_country">
+                <option value="">Hack Name</option>
+                                                                                <option value="Afghanistan">
+                    Afghanistan                                            </option>
+                                                            <option value="American samoa">
+                    American samoa                                            </option>
+                                                            <option value="Andorra">
+                    Andorra                                            </option>
+                                                            <option value="Antigua and barbuda">
+                    Antigua and barbuda                                            </option>
+                                                            <option value="Australia">
+                    Australia                                            </option>
+                                                            <option value="Austria">
+                    Austria                                            </option>
+                                                            <option value="Azerbaijan">
+                    Azerbaijan                                            </option>
+                                                            <option value="Bahrain">
+                    Bahrain                                            </option>
+                                                            <option value="Bangladesh">
+                    Bangladesh                                            </option>
+                                                            <option value="Bosnia and Herzegovina">
+                    Bosnia and Herzegovina                                            </option>
+                                                            <option value="Botswana">
+                    Botswana                                            </option>
+                                                            <option value="Brazil">
+                    Brazil                                            </option>
+                                                            <option value="Bulgaria">
+                    Bulgaria                                            </option>
+                                                            <option value="Cameroon">
+                    Cameroon                                            </option>
+                                                            <option value="Canada">
+                    Canada                                            </option>
+                                                            <option value="China">
+                    China                                            </option>
+                                                            <option value="Cote divoire">
+                    Cote divoire                                            </option>
+                                                            <option value="Croatia">
+                    Croatia                                            </option>
+                                                            <option value="Cyprus">
+                    Cyprus                                            </option>
+                                                            <option value="Czech republic">
+                    Czech republic                                            </option>
+                                                            <option value="Denmark">
+                    Denmark                                            </option>
+                                                            <option value="France">
+                    France                                            </option>
+                                                            <option value="French polynesia">
+                    French polynesia                                            </option>
+                                                            <option value="Germany">
+                    Germany                                            </option>
+                                                            <option value="Ghana">
+                    Ghana                                            </option>
+                                                            <option value="Guadeloupe">
+                    Guadeloupe                                            </option>
+                                                            <option value="Hungary">
+                    Hungary                                            </option>
+                                                            <option value="Iceland">
+                    Iceland                                            </option>
+                                                            <option value="India">
+                    India                                            </option>
+                                                            <option value="Indonesia">
+                    Indonesia                                            </option>
+                                                            <option value="Iran">
+                    Iran                                            </option>
+                                                            <option value="Ireland">
+                    Ireland                                            </option>
+                                                            <option value="Italy">
+                    Italy                                            </option>
+                                                            <option value="Latvia">
+                    Latvia                                            </option>
+                                                            <option value="Luxembourg">
+                    Luxembourg                                            </option>
+                                                            <option value="Malaysia">
+                    Malaysia                                            </option>
+                                                            <option value="Mexico">
+                    Mexico                                            </option>
+                                                            <option value="Morocco">
+                    Morocco                                            </option>
+                                                            <option value="Nepal">
+                    Nepal                                            </option>
+                                                            <option value="Netherlands">
+                    Netherlands                                            </option>
+                                                            <option value="New zealand">
+                    New zealand                                            </option>
+                                                            <option value="Nigeria">
+                    Nigeria                                            </option>
+                                                            <option value="Nottinghamshire">
+                    Nottinghamshire                                            </option>
+                                                            <option value="Pakistan">
+                    Pakistan                                            </option>
+                                                            <option value="Philippines">
+                    Philippines                                            </option>
+                                                            <option value="Romania">
+                    Romania                                            </option>
+                                                            <option value="Russia">
+                    Russia                                            </option>
+                                                            <option value="Singapore">
+                    Singapore                                            </option>
+                                                            <option value="Slovakia">
+                    Slovakia                                            </option>
+                                                            <option value="Spain">
+                    Spain                                            </option>
+                                                            <option value="Sweden">
+                    Sweden                                            </option>
+                                                            <option value="Tanzania">
+                    Tanzania                                            </option>
+                                                            <option value="Thailand">
+                    Thailand                                            </option>
+                                                            <option value="United arab emirates">
+                    United arab emirates                                            </option>
+                                                            <option value="United kingdom">
+                    United kingdom                                            </option>
+                                                            <option value="Usa">
+                    Usa                                            </option>
+                                                            <option value="Vietnam">
+                    Vietnam                                            </option>
+                </select>
+          </div>
+          <div class="col-md-3 grid_1">
+             <select class="form-control grid_1 col-md-3" name="state" id="state">
+	            <option value="">State</option>
+	                                                        <option value="Andaman and nicobar">
+                    Andaman and nicobar                                            </option>
+                                                            <option value="Andhra pradesh">
+                    Andhra pradesh                                            </option>
+                                                            <option value="Arunachal pradesh">
+                    Arunachal pradesh                                            </option>
+                                                            <option value="Assam">
+                    Assam                                            </option>
+                                                            <option value="Bihar">
+                    Bihar                                            </option>
+                                                            <option value="Chandigarh">
+                    Chandigarh                                            </option>
+                                                            <option value="Chhattisgarh">
+                    Chhattisgarh                                            </option>
+                                                            <option value="Dadra and nagar haveli">
+                    Dadra and nagar haveli                                            </option>
+                                                            <option value="Delhi">
+                    Delhi                                            </option>
+                                                            <option value="Goa">
+                    Goa                                            </option>
+                                                            <option value="Gujarat">
+                    Gujarat                                            </option>
+                                                            <option value="Haryana">
+                    Haryana                                            </option>
+                                                            <option value="Himachal pradesh">
+                    Himachal pradesh                                            </option>
+                                                            <option value="Jammu and kashmir">
+                    Jammu and kashmir                                            </option>
+                                                            <option value="Jharkhand">
+                    Jharkhand                                            </option>
+                                                            <option value="Karnataka">
+                    Karnataka                                            </option>
+                                                            <option value="Kerala">
+                    Kerala                                            </option>
+                                                            <option value="Madhya pradesh">
+                    Madhya pradesh                                            </option>
+                                                            <option value="Maharashtra">
+                    Maharashtra                                            </option>
+                                                            <option value="Manipur">
+                    Manipur                                            </option>
+                                                            <option value="Meghalaya">
+                    Meghalaya                                            </option>
+                                                            <option value="Mizoram">
+                    Mizoram                                            </option>
+                                                            <option value="Nagaland">
+                    Nagaland                                            </option>
+                                                            <option value="Odisha">
+                    Odisha                                            </option>
+                                                            <option value="Pondicherry">
+                    Pondicherry                                            </option>
+                                                            <option value="Punjab">
+                    Punjab                                            </option>
+                                                            <option value="Rajasthan">
+                    Rajasthan                                            </option>
+                                                            <option value="Sikkim">
+                    Sikkim                                            </option>
+                                                            <option value="Tamil nadu">
+                    Tamil nadu                                            </option>
+                                                            <option value="Telangana">
+                    Telangana                                            </option>
+                                                            <option value="Tripura">
+                    Tripura                                            </option>
+                                                            <option value="Uttar pradesh">
+                    Uttar pradesh                                            </option>
+                                                            <option value="Uttarakhand">
+                    Uttarakhand                                            </option>
+                                                            <option value="West bengal">
+                    West bengal                                            </option>
+                                                </select>
+                </div>
+                <div class="col-md-3 grid_1">
+                <select class="form-control grid_1 grid_2 col-md-3" name="city" id="city">
+                   <option value="">City</option>
+                                                    <option value="Ashoknagar">
+                    Ashoknagar                                            </option>
+                                                            <option value="Asola">
+                    Asola                                            </option>
+                                                            <option value="Bakhtawar">
+                    Bakhtawar                                            </option>
+                                                            <option value="Central delhi">
+                    Central delhi                                            </option>
+                                                            <option value="Delhi">
+                    Delhi                                            </option>
+                                                            <option value="Delhi ncr">
+                    Delhi ncr                                            </option>
+                                                            <option value="Dwarka">
+                    Dwarka                                            </option>
+                                                            <option value="East delhi">
+                    East delhi                                            </option>
+                                                            <option value="Hasanpur">
+                    Hasanpur                                            </option>
+                                                            <option value="Kirti nagar">
+                    Kirti nagar                                            </option>
+                                                            <option value="New delhi">
+                    New delhi                                            </option>
+                                                            <option value="North delhi">
+                    North delhi                                            </option>
+                                                            <option value="North west delhi">
+                    North west delhi                                            </option>
+                                                            <option value="Rohini">
+                    Rohini                                            </option>
+                                                            <option value="South delhi">
+                    South delhi                                            </option>
+                                                            <option value="Tilak nagar">
+                    Tilak nagar                                            </option>
+                                                            <option value="Trilokpuri">
+                    Trilokpuri                                            </option>
+                                                            <option value="West delhi">
+                    West delhi                                            </option>
+                                                </select>
+              </div>
+              <div class="clearfix"></div>
+          </div>
+          <div class="panel-body_3">
+            <div class="pull-left" style="margin:0 5px;">
+        		<a class="thumbnail" href="projects.html">
+        			<img src="images/pic1.jpg" width="90" height="90">
+        		</a>
+        	</div>
+        	<div class="name">
+	            <a href="http://github.com/coolhacks/docker-hacks" target="_blank">
+	                <span>Docker hacks</span>
+	            </a><br>
+	            <a href="https://docker.com" target="_blank">
+	               <p>Docker</p>
+	            </a>
+	            <a href="#" target="_blank">
+	                <p>MIT License</p>
+	            </a>
+             </div>
+             <div class="contact_btn">
+             	<a href="http://github.com/coolhacks/docker-hacks" target="_blank" class="add_btn add_btn1"><span class="fa fa-github"></span> View on Github</a>
+             </div>
+             <div class="clearfix"></div><hr>
+             <div class="pull-left" style="margin:0 5px;">
+        		<a class="thumbnail" href="classified_detail.html">
+        			<img src="images/pic3.jpg" width="90" height="90">
+        		</a>
+        	</div>
+        	<div class="name">
+	            <a href="http://github.com/coolhacks/kubernetes-hacks" target="_blank">
+	                <span>Kubernetes hacks</span>
+	            </a><br>
+	            <a href="http://kubernetes.io" target="_blank">
+	               <p>Kubernetes</p>
+	            </a>
+	            <a href="#">
+	                <p>MIT License</p>
+	            </a>
+             </div>
+             <div class="contact_btn">
+             	<a href="http://github.com/coolhacks/kuberntes-hacks" target="_blank" class="add_btn add_btn1"><span class="fa fa-github"></span> View on Github</a></a>
+             </div>
+             <div class="clearfix"></div><hr>
+             <div class="pull-left" style="margin:0 5px;">
+        		<a class="thumbnail" href="classified_detail.html">
+        			<img src="images/pic2.jpg" width="90" height="90">
+        		</a>
+        	</div>
+        	<div class="name">
+	            <a href="http://github.com/coolhacks/python-hacks">
+	                <span>Python Hacks</span>
+	            </a><br>
+	            <a href="https://python.org" target="_blank">
+	               <p>Python</p>
+	            </a>
+	            <a href="#">
+	                <p>MIT License</p>
+	            </a>
+             </div>
+             <div class="contact_btn">
+             	<a href="http://github.com/coolhacks/python-hacks" target="_blank" class="add_btn add_btn1"><span class="fa fa-github"></span> View on Github</a></a>
+             </div>
+             <div class="clearfix"></div><hr>
+             <div class="pull-left" style="margin:0 5px;">
+        		<a class="thumbnail" href="http://github.com/coolhacks/rpi-hacks" target="_blank">
+        			<img src="images/pic9.png" width="90" height="90">
+        		</a>
+        	</div>
+        	<div class="name">
+	            <a href="http://github.com/coolhacks/rpi-hacks" target="_blank">
+	                <span>Raspberry Pi</span>
+	            </a><br>
+	            <a href="https://raspberrypi.org">
+	               <p>Raspberry Pi</p>
+	            </a>
+	            <a href="#">
+	                <p>MIT License</p>
+	            </a>
+             </div>
+             <div class="contact_btn">
+             	<a href="http://github.com/coolhacks/rpi-hacks" target="_blank" class="add_btn add_btn1"><span class="fa fa-github"></span> View on Github</a></a>
+             </div>
+             <div class="clearfix"></div><hr>
+             <div class="pull-left" style="margin:0 5px;">
+        		<a class="thumbnail" href="classified_detail.html">
+        			<img src="images/pic4.png" width="90" height="90">
+        		</a>
+        	</div>
+        	<div class="name">
+	            <a href="http://github.com/coolhacks/go-hacks" target="_blank">
+	                <span>Golang</span>
+	            </a><br>
+	            <a href="#">
+	               <p>Golang</p>
+	            </a>
+	            <a href="#">
+	                <p>MIT License</p>
+	            </a>
+             </div>
+             <div class="contact_btn">
+             	<a href="http://github.com/coolhacks/go-hacks" target="_blank" class="add_btn add_btn1"><span class="fa fa-github"></span> View on Github</a></a>
+             </div>
+             <div class="clearfix"></div>
+          </div>
+        </div>
+   </div>
+</div>
+<section class="bg-secondary">
+        <div class="container">
+           <div class="col-md-6 country_list2">
+              <div class="inset-3">
+                <h4>
+                  Why CoolHacks ?
+                </h4>
+                <div class="line-inset-1">
+                  <p>
+                    I packages
+                  </p>
+                  <p>Lorem Ipsum is the 1500s</p>
+                  <div class="link_1">
+                    <a href="#" class="add_btn more_btn">More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 country_list1">
+              <div class="inset-3">
+                <h4>
+                  Hacking List
+                </h4>
+                <div class="line-inset-1">
+                  <ul class="col-xs-6 marked-list">
+                    <li><a href="state_detail.html">Docker</a></li>
+                    <li><a href="state_detail.html">Kubernetes</a></li>
+                    <li><a href="state_detail.html">Vagrant</a></li>
+                    <li><a href="state_detail.html">Raspberry Pi</a></li>
+                    <li><a href="state_detail.html">Shell Scripts</a></li>
+                    <li><a href="state_detail.html">Ruby</a></li>
+                    <li><a href="state_detail.html">Python</a></li>
+                    <li><a href="state_detail.html">Golang</a></li>
+                    <li><a href="state_detail.html">Internet of Things</a></li>
+                  </ul>
+                  <div class="clearfix"> </div>
+                </div>
+             </div>
+           </div>
+          <div class="clearfix"> </div>
+        </div>
+</section>
+<div class="footer_widget">
+	<div class="container">
+		<div class="col-md-4">
+			<aside id="text-1" class="widget widget_text">
+				<h3 class="widget-title"><span>Contact Us</span></h3>
+				<div class="textwidget"><p>Although using the medium of internet CoolHacks is available everywhere.But just for the convienence of mentioning,here is the address of the founder.</p>
+				   <p><em style="color: #fff;">26-C,Vidhyut Nagar,<br> Chitrakoot Marg,<br> Jaipur,India.</em></p>
+				</div>
+			</aside>
+		</div>
+		<div class="col-md-4">
+			<aside id="text-2" class="widget widget_text">
+				<h3 class="widget-title"><span>About CoolHacks</span></h3>
+				<div class="textwidget">
+					<p>Coolhacks is a fun and amazing work where you can find awesome and cool collection of hacks on almost anything.It is completely open source in nature.
+          MIT License work.</p></div>
+		    </aside>
+		</div>
+		<div class="col-md-4">
+			<aside>
+				<h3 class="widget-title"><span>Twitter Feed</span></h3>
+        <a class="twitter-timeline" href="https://twitter.com/ramitsurana" data-widget-id="569125965700542464">Tweets by @ramitsurana</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</aside>
+		</div>
+	</div>
+</div>
+<div class="footer_middle">
+	<div class="container">
+        <div class="col-sm-7">
+          <div class="footer-icons">
+          	<a href="https://twitter.com/ramitsurana" class="social-icon"><i class="fa fa-twitter has-circle"></i></a>
+          	<a href="https://facebook.com/ramitsurana" class="social-icon"><i class="fa fa-facebook has-circle"></i></a>
+          	<a href="https://plus.google.com/+RamitSurana96" class="social-icon"><i class="fa fa-google-plus has-circle"></i></a>
+          	<a href="https://github.com/coolhacks" class="social-icon"><i class="fa fa-github has-circle"></i></a>
+          	<div class="clearfix"> </div>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="newsletter_signup">
+            <form novalidate="" target="_blank" name="newsletter-subscribe-form" id="newsletter-subscribe-form" method="post" class="form-inline validate">
+              <input type="email" required="" placeholder="Subscribe to our newsletter" class="form-control" name="EMAIL" value="">
+              <input type="submit" id="newsletter-subscribe" name="subscribe" value="SUBSCRIBE">
+            </form>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<div class="footer_bottom">
+	<div class="container">
+		<div class="copy">
+            <p>Copyright © 2016 CoolHacks. All Rights Reserved | Design by <a href="http://twitter.com/ramitsurana" target="_blank">Ramit Surana</a> </p>
+	    </div>
+	</div>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">Top </span></a>
+      <script type="text/javascript" src="js/move-top.js"></script>
+      <script type="text/javascript" src="js/easing.js"></script>
+      <script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+	  			containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+	 		};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+	  </script>
+</div>
+<!----language selector----->
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+<!-- Source -->
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script>
+	$( document ).ready( function() {
+		$( '.uls-trigger' ).uls( {
+			onSelect : function( language ) {
+				var languageName = $.uls.data.getAutonym( language );
+				$( '.uls-trigger' ).text( languageName );
+			},
+			quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+		} );
+	} );
+</script>
+</body>
+</html>
